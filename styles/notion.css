@@ -67,6 +67,7 @@
   --notion-header-height: 45px;
 }
 
+/* ===== 吴哥帮你修正的NOTION.CSS START ===== */
 .notion {
   font-size: 16px;
   line-height: 1.5;
@@ -74,6 +75,43 @@
   caret-color: var(--fg-color);
   font-family: 'Noto Sans SC', sans-serif !important;
 }
+
+.notion-title {
+  width: 100%;
+  font-size: 2.5em;
+  font-weight: 400; /* 已修正 */
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.notion-h {
+  position: relative;
+  font-weight: 400; /* 已修正 */
+  line-height: 1.3;
+  padding: 3px 2px;
+  margin-bottom: 1px;
+  max-width: 100%;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.notion-link {
+  color: #000000;
+  word-break: break-word;
+  text-decoration: none;
+  border-bottom: 0;
+  opacity: 1;
+}
+
+.notion-link:hover {
+  color: #333333;
+}
+
+.notion-link:visited {
+  color: #777777;
+}
+
+/* ===== 吴哥帮你修正的NOTION.CSS END ===== */
 
 .notion > * {
   padding: 3px 0;
@@ -377,27 +415,8 @@
   font-weight: 600;
 }
 
-.notion-title {
-  width: 100%;
-  font-size: 2.5em;
-  font-weight: 400;
-  margin-bottom: 20px;
-  line-height: 1.2;
-}
-
 summary > .notion-h {
   display: inline;
-}
-
-.notion-h {
-  position: relative;
-  font-weight: 400;
-  line-height: 1.3;
-  padding: 3px 2px;
-  margin-bottom: 1px;
-  max-width: 100%;
-  white-space: pre-wrap;
-  word-break: break-word;
 }
 
 .notion-h1 {
@@ -559,26 +578,6 @@ summary > .notion-h {
   /* border-bottom-width: 1px; */
 }
 
-.notion-link {
-  color: #000000;
-  word-break: break-word;
-  text-decoration: none;
-  border-bottom: none;
-  border-color: none;
-  opacity: 0.7;
-  transition:
-    border-color 100ms ease-in,
-    opacity 100ms ease-in;
-}
-
-.notion-link:hover {
-  color: #333;
-  border-color: none;
-}
-.notion-link:visited {
-  color: #777777;
-  border-bottom-color: none;
-}
 .notion-blank {
   width: 100%;
   min-height: 1rem;
