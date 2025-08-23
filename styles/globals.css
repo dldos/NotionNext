@@ -59,6 +59,22 @@ a:hover {
 
 /* ===== 终极大结局 END ===== */
 
+/* ===== 网站标题最终版装修 START ===== /
+
+/ 第一步：用国内镜像把“江西拙楷2.0”字体请过来 /
+@import url('https://s1.font.im/css?family=江西拙楷2.0');
+
+/ 第二步：用最精确的ID，给你标题换上新字体 /
+#logo-wrapper a {
+/ '江西拙楷2.0' 是它的中文名, 'Long Cang' 是备用名, 'cursive' 是书法字体类的总称 /
+font-family: '江西拙楷2.0', 'Long Cang', cursive !important;
+font-weight: 400 !important; / 书法字体不需要加粗 /
+font-size: 1.5rem !important; / 我顺手帮你把字号调大了一点，更有气势 /
+line-height: 1.5rem !important; / 调整行高，防止文字被切 /
+}
+
+/ ===== 装修 END ===== */
+
 /* ===== 吴哥的终极地毯式轰炸 END ===== */
 
 
