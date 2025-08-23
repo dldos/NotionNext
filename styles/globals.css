@@ -10,32 +10,6 @@ body {
 }
 /* ===== 吴哥帮你加的全局总纲 END ===== */
 
-/* ===== 标题减肥 START ===== */
-h1, .notion-page-title,
-h2, .notion-h1,
-h3, .notion-h2 {
-  font-weight: 400; /* 400就是常规粗细，不加粗 */
-}
-/* ===== 标题减肥 END ===== */
-
-/* ===== 链接样式 START ===== */
-.notion-page a {
-  color: #000000;
-  text-decoration: none;
-  border-bottom: 1px solid #000000;
-}
-
-.notion-page a:visited {
-  color: #777777;
-  border-bottom-color: #77777a;
-}
-
-.notion-page a:hover {
-  color: #333333;
-  border-bottom-color: #333333;
-}
-/* ===== 链接样式 END ===== */
-
 
 
 
