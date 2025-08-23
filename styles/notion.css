@@ -563,8 +563,8 @@ summary > .notion-h {
   color: #000000;
   word-break: break-word;
   text-decoration: none;
-  border-bottom: 0.05em solid !important;
-  border-color: var(--fg-color-2);
+  border-bottom: none;
+  border-color: none;
   opacity: 0.7;
   transition:
     border-color 100ms ease-in,
@@ -572,12 +572,12 @@ summary > .notion-h {
 }
 
 .notion-link:hover {
-  border-color: #333333;
-  opacity: 1;
+  color: #333;
+  border-color: none;
 }
 .notion-link:visited {
   color: #777777;
-  border-bottom-color: #777777;
+  border-bottom-color: none;
 }
 .notion-blank {
   width: 100%;
