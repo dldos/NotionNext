@@ -41,6 +41,20 @@ a:hover {
 #posts-wrapper a > div.font-semibold {
     font-weight: 400 !important;
 
+
+/* ===== 终极大结局：彻底收编顶部导航栏 START ===== */
+
+/* 用最精确的ID定位，给它下最后通牒 */
+#nav-bar nav a {
+    font-weight: 400 !important; /* 不许加粗！ */
+}
+
+#nav-bar nav a:hover {
+    color: #333333 !important; /* 鼠标滑过，必须是深灰色！不许变绿！*/
+}
+
+/* ===== 终极大结局 END ===== */
+
 /* ===== 吴哥的终极地毯式轰炸 END ===== */
 
 
