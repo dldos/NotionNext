@@ -21,19 +21,25 @@ h1, h2, h3, h4, h5, h6,
 /* 不管你在哪，只要是a标签，就得听我的 */
 a {
   color: #000000 !important;
-  border-bottom: 1px solid #000000 !important;
-  text-decoration: none !important;
+  text-decoration: none !important; /* 只要这行，不要border-bottom */
 }
 
 a:visited {
   color: #777777 !important;
-  border-bottom-color: #777777 !important;
 }
 
 a:hover {
   color: #333333 !important;
-  border-bottom-color: #333333 !important;
 }
+
+/* 找到那个绿色的家伙，把它颜色变黑 */
+#posts-wrapper a > div.text-green-500 {
+    color: #000000 !important; 
+}
+
+/* 找到那个加粗的家伙，让它变回常规粗细 */
+#posts-wrapper a > div.font-semibold {
+    font-weight: 400 !important;
 
 /* ===== 吴哥的终极地毯式轰炸 END ===== */
 
