@@ -7,10 +7,11 @@
 /* 第一弹：给整个网页的根（html）设定字体，这是最顶层的命令 */
 html, body {
   font-family: 'Noto Sans SC', sans-serif !important;
+  color: #000000 !important;
+  background-color: #ffffff !important;
 }
 
 /* 第二弹：强制所有级别的标题都使用常规粗细 */
-/* 这一招最狠，咱直接把主题用来加粗的“武器” .font-bold 也给它缴械了！ */
 h1, h2, h3, h4, h5, h6,
 .notion-page-title, .notion-h, 
 .font-bold, [class*="font-bold"] {
@@ -18,10 +19,9 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /* 第三弹：强制所有链接都遵循咱们的颜色规则 */
-/* 不管你在哪，只要是a标签，就得听我的 */
 a {
   color: #000000 !important;
-  text-decoration: none !important; /* 只要这行，不要border-bottom */
+  text-decoration: none !important;
 }
 
 a:visited {
@@ -32,14 +32,16 @@ a:hover {
   color: #333333 !important;
 }
 
-/* 找到那个绿色的家伙，把它颜色变黑 */
+/* ===== 最终一击：收服左边栏的“内鬼” START ===== */
 #posts-wrapper a > div.text-green-500 {
     color: #000000 !important; 
 }
 
-/* 找到那个加粗的家伙，让它变回常规粗细 */
 #posts-wrapper a > div.font-semibold {
     font-weight: 400 !important;
+}
+/* ===== 最终一击 END ===== */
+
 
 /* ===== 吴哥的终极地毯式轰炸 END ===== */
 
