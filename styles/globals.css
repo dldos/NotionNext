@@ -2,15 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ===== 吴哥帮你加的全局总纲 START ===== */
-body {
-  background-color: #ffffff;
-  font-family: 'Noto Sans SC', sans-serif;
-  color: #000000;
+/* ===== 吴哥的终极地毯式轰炸 START ===== */
+
+/* 第一弹：给整个网页的根（html）设定字体，这是最顶层的命令 */
+html, body {
+  font-family: 'Noto Sans SC', sans-serif !important;
 }
-/* ===== 吴哥帮你加的全局总纲 END ===== */
 
+/* 第二弹：强制所有级别的标题都使用常规粗细 */
+/* 这一招最狠，咱直接把主题用来加粗的“武器” .font-bold 也给它缴械了！ */
+h1, h2, h3, h4, h5, h6,
+.notion-page-title, .notion-h, 
+.font-bold, [class*="font-bold"] {
+  font-weight: 400 !important;
+}
 
+/* 第三弹：强制所有链接都遵循咱们的颜色规则 */
+/* 不管你在哪，只要是a标签，就得听我的 */
+a {
+  color: #000000 !important;
+  border-bottom: 1px solid #000000 !important;
+  text-decoration: none !important;
+}
+
+a:visited {
+  color: #777777 !important;
+  border-bottom-color: #777777 !important;
+}
+
+a:hover {
+  color: #333333 !important;
+  border-bottom-color: #333333 !important;
+}
+
+/* ===== 吴哥的终极地毯式轰炸 END ===== */
 
 
 html {
