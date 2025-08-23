@@ -560,7 +560,7 @@ summary > .notion-h {
 }
 
 .notion-link {
-  color: inherit;
+  color: #000000;
   word-break: break-word;
   text-decoration: none;
   border-bottom: 0.05em solid !important;
@@ -572,7 +572,7 @@ summary > .notion-h {
 }
 
 .notion-link:hover {
-  border-color: var(--fg-color-6);
+  border-color: #333333;
   opacity: 1;
 }
 .notion-link:visited {
