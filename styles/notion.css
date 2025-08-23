@@ -575,7 +575,10 @@ summary > .notion-h {
   border-color: var(--fg-color-6);
   opacity: 1;
 }
-
+.notion-link:visited {
+  color: #777777;
+  border-bottom-color: #777777;
+}
 .notion-blank {
   width: 100%;
   min-height: 1rem;
