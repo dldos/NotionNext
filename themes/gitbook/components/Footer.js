@@ -40,7 +40,7 @@ const Footer = ({ siteInfo }) => {
           <br />
         </>
       )}
-
+{/* 
       <span className='hidden busuanzi_container_site_pv'>
         <i className='fas fa-eye' />
         <span className='px-1 busuanzi_value_site_pv'> </span>{' '}
@@ -57,6 +57,7 @@ const Footer = ({ siteInfo }) => {
           NotionNext {siteConfig('VERSION')}
         </a>
       </div>
+*/}      
       {/* SEO title */}
       <h1 className='pt-1 hidden'>{siteConfig('TITLE')}</h1>
     </footer>
