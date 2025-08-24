@@ -95,9 +95,11 @@ const NavPostList = props => {
     <div
       id='posts-wrapper'
       className='w-full flex-grow space-y-0.5 pr-4 tracking-wider'>
-      {/* 当前文章 */}
-      <BlogPostCard className='mb-4' post={homePost} />
 
+    {/* 当前文章 — DESCRIPTION 有值时才显示 */}
+    {siteConfig('DESCRIPTION') && (
+     <BlogPostCard className='mb-4' post={homePost} />
+       )}
       {/* 文章列表 */}
       {categoryFolders?.map((group, index) => (
         <NavPostItem
