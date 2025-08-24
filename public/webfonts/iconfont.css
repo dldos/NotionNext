@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 5005775 */
+  src: url('iconfont.woff2?t=1756005244627') format('woff2'),
+       url('iconfont.woff?t=1756005244627') format('woff'),
+       url('iconfont.ttf?t=1756005244627') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jichutubiao-bukaixin:before {
+  content: "\ea04";
+}
+
+.icon-jichutubiao-fenxiang:before {
+  content: "\ea05";
+}
+
+.icon-jichutubiao-dianji:before {
+  content: "\ea06";
+}
+
+.icon-jichutubiao-bianji:before {
+  content: "\ea02";
+}
+
+.icon-jichutubiao-biaoji:before {
+  content: "\ea03";
+}
+
