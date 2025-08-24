@@ -14,6 +14,8 @@ const BLOG = {
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
+TITLE: 'Peng 的工作室'
+  
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'DLD.WU', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '大乱炖老吴', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://dldos.com', // 网站地址
@@ -22,6 +24,8 @@ const BLOG = {
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '吉ICP备2025031246号-1', // 备案号 闽ICP备XXXXXX
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://beian.miit.gov.cn/', // 备案查询链接，如果用了萌备等备案请在这里填写
 
+
+  
   // RSS订阅
   ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
 
