@@ -79,11 +79,6 @@ line-height: 1.5rem !important; / 调整行高，防止文字被切 /
 
 / ===== 装修 END ===== */
 
-/* 精准打击：干掉左边栏的副标题 */
-#posts-wrapper .select-none {
-  display: none !important;
-}
-
 /* ===== 吴哥的终极地毯式轰炸 END ===== */
 
 
