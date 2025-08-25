@@ -44,12 +44,6 @@ a:hover {
 }
 /* ===== 最终一击 END ===== */
 
-/* ===== 最精准打击：干掉左边栏博客描述 START ===== */
-#posts-wrapper .select-none {
-  display: none !important;
-}
-/* ===== 最精准打击 END ===== */
-
 /* ===== 终极大结局：彻底收编顶部导航栏 START ===== */
 
 /* 用最精确的ID定位，给它下最后通牒 */
@@ -78,11 +72,6 @@ line-height: 1.5rem !important; / 调整行高，防止文字被切 /
 }
 
 / ===== 装修 END ===== */
-
-/* 精准打击：干掉左边栏的副标题 */
-#posts-wrapper .select-none {
-  display: none !important;
-}
 
 /* ===== 吴哥的终极地毯式轰炸 END ===== */
 
